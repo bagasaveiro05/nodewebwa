@@ -1,0 +1,20 @@
+{
+  "name": "wa-gateway-node-service",
+  "version": "4.6.1-cpanel-force",
+  "description": "Node.js WhatsApp Web service for WA Gateway - cPanel forced compatibility build",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "start:memory-safe": "node --max-old-space-size=512 server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.22",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pino": "^9.5.0",
+    "qrcode": "^1.5.4"
+  }
+}

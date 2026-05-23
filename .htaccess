@@ -1,0 +1,19 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/cplh69c3835/public_html/way/node-service"
+PassengerBaseURI "/"
+PassengerNodejs "/home/cplh69c3835/nodevenv/public_html/way/node-service/20/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv APP_CALLBACK_URL http://wa.aveirodev.my.id/internal/wa/incoming
+SetEnv APP_STATUS_URL http://wa.aveirodev.my.id/internal/wa/device-status
+SetEnv INTERNAL_SECRET 915b34082f6b63c94bdebd2db90f7ae2c50cd52b237ec467
+SetEnv NODE_OPTIONS --max-old-space-size=512
+SetEnv PORT 3001
+SetEnv SESSIONS_DIR ./sessions
+SetEnv AUTO_RECONNECT 1
+SetEnv BAILEYS_LOG_LEVEL error
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

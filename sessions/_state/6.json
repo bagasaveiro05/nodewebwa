@@ -1,0 +1,12 @@
+{
+  "status": "online",
+  "qr": null,
+  "qr_image": null,
+  "phone": "6285789722751",
+  "device_id": "6",
+  "updated_at": "2026-05-22T20:38:19.973Z",
+  "pid": 1864203,
+  "disconnect_code": 428,
+  "disconnect_message": "Connection Terminated",
+  "disconnect_stack": "Error: Connection Terminated\n    at WebSocketClient.<anonymous> (file:///home/cplh69c3835/nodevenv/public_html/way/node-service/20/lib/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:445:30)\n    at WebSocketClient.emit (node:events:536:35)\n    at WebSocket.<anonymous> (file:///home/cplh69c3835/nodevenv/public_html/way/node-service/20/lib/node_modules/@whiskeysockets/baileys/lib/Socket/Client/websocket.js:35:54)\n    at WebSocket.emit (node:events:524:28)"
+}
