@@ -425,4 +425,6 @@ app.post('/send-message', requireSecret, async (req, res) => {
   }
 });
 
-app.listen(PORT, () => log(`WA Gateway Node service running on port ${PORT} pid=${process.pid}`));
+app.listen(PORT, "0.0.0.0", () => {
+  log(`WA Gateway Node service running on port ${PORT} pid=${process.pid}`);
+});
